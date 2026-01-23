@@ -92,12 +92,11 @@ export default function MinimalPortfolio() {
       {/* HEAD */}
       <nav className="w-full border-b border-slate-100 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
-          <span className="font-semibold text-slate-900 tracking-tight">
-            {portfolioData.name}
-          </span>
+             <Link href="#about" className="font-semibold text-slate-900 tracking-tight" > {portfolioData.name} </Link>
+
           <div className="flex gap-6 text-sm text-slate-500">
-            <Link href="#work" className="hover:text-slate-900 transition">Work</Link>
-            <Link href="#about" className="hover:text-slate-900 transition">About</Link>
+            <Link href="#about" className="hover:text-slate-900 transition">About Me</Link>
+            <Link href="#work" className="hover:text-slate-900 transition">Project</Link>
             <Link href="#contact" className="hover:text-slate-900 transition">Contact</Link>
           </div>
         </div>
