@@ -49,7 +49,7 @@ const portfolioData = {
     },
     {
       title: "StuffNext",
-      desc: "เป็น Project วิชา 	SYSTEM ANALYSIS & DESIGN โดยทำงานจริงตั้งแต่ รับ Requirement ของผู้ใช้ ไปจนถึงการทดสอบระบบ และ Deploy เพื่อใช้งาน ซึ่งเว็บไซต์นี้ ใช้ในการ จัดการครุภัณฑ์ของโรงเรียนศรีนครินทร์วิทยานุเคราะห์ โดยจัดเก็บตำแหน่งที่อยู่ จำนวน ชื่อผู้รับผิดชอบ ของครุภัณฑ์แต่ละอัน ซึ่งในระบบ สามารถ ค้นหา เพิ่ม ลบ แก้ไข ย้ายตำแหน่ง ได้ ดูสรุปได้ เครื่องมือที่ใช้พัฒนาคือ Next.js taildwind PrismaORM Postgrest Postman และ Docker สำหรับ deploy",
+      desc: "เป็น Project วิชา 	SYSTEM ANALYSIS & DESIGN โดยทำงานจริงตั้งแต่ รับ Requirement ของผู้ใช้ ไปจนถึงการทดสอบระบบ และ Deploy เพื่อใช้งาน ซึ่งเว็บไซต์นี้ ใช้ในการ จัดการครุภัณฑ์ของโรงเรียนศรีนครินทร์วิทยานุเคราะห์ โดยจัดเก็บตำแหน่งที่อยู่ จำนวน ชื่อผู้รับผิดชอบ ของครุภัณฑ์แต่ละอัน ซึ่งในระบบ สามารถ ค้นหา เพิ่ม ลบ แก้ไข ย้ายตำแหน่ง ได้ ดูสรุปได้ เครื่องมือที่ใช้พัฒนาคือ Next.js taildwind PrismaORM Postgrest Postman และ Docker สำหรับ deploy อ่านรายละเอียดเพิ่มเติมได้ที่ README https://github.com/Pisit-auu/stuffnext  ลองใช้ website User:admin Password:1234 ",
       year: "2025",
       link: 'https://stuffnext.vercel.app/',
       tags: ["Next.js", "Tailwind", "Docker", "Prisma", "PostgreSQL"]
