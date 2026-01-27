@@ -21,7 +21,7 @@ const portfolioData = {
     },
     {
       category: "AI & Machine Learning",
-      items: ["PyTorch/TensorFlow", "Scikit-learn", "Supervised Fine-Tuning (SFT)", "LoRA"]
+      items: ["PyTorch/TensorFlow", "Scikit-learn", "Supervised Fine Tuning (SFT)", "LoRA"]
     },
     {
       category: "Tools & DevOps",
@@ -80,7 +80,7 @@ const portfolioData = {
       desc: "เป็น Project วิชา Artificial Intelligence Software Development ทำ Projectเกี่ยวกับ ให้ EA เทรด ให้กับเรา อัตโนมัติ ใน MetaTrader5 โดยใช้ 1DCNN+LSTM ในการทำนาย Wait,Trade และใช้ LLM ในการทำนาย BUY,SELL โดยการ finetune LLM ด้วย LoRA เป็น Project ที่กำลังดำเนินอยู่ในภาคเรียนการศึกษานี้",
       year: "2025",
       link: 'in progress',
-      tags: ["Python","1DCNN","LSTM","Supervised Fine-Tuning (SFT)","LLM Parameter-efficient fine-tuning using LoRA","llama"]
+      tags: ["Python","1DCNN","LSTM","Supervised Fine Tuning (SFT)","LLM Parameter efficient fine tuning using LoRA","llama"]
     }
   ]
 };
