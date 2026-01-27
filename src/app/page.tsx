@@ -5,7 +5,7 @@ import Link from "next/link";
 const portfolioData = {
   name: "Pisit Sangiemwong",
   role: "Software Developer",
-  bio: "I am a Computer Science student experienced in AI and web application projects, with growing interests in IoT and DevOps to broaden my technical skill set.",
+  bio: "I am a third year Computer Science student experienced in AI and web application projects, with growing interests in IoT and DevOps to broaden my technical skill set.",
   socials: {
     github: "https://github.com/Pisit-auu",
     email: "s6604062610471@email.kmutnb.ac.th", 
@@ -35,21 +35,21 @@ const portfolioData = {
   projects: [
     {
       title: "Numerical Website",
-      desc: "เป็น Project วิชา Numerical Method ที่นำเนื้อหาที่เรียน มาทำเป็นเว็บไซต์สำหรับ คำนวณ พร้อมแสดงวิธีการทำอย่างละเอียด เครื่องมือที่ใช้ Next.js taildwind PrismaORM Postgrest Postman โดยมีการทำ CICD Swagger และได้ใช้ Docker ในProjectด้วย ",
+      desc: "เป็น Project วิชา Numerical Method ที่นำเนื้อหาที่เรียน มาทำเป็นเว็บไซต์สำหรับ คำนวณ พร้อมแสดงวิธีการทำอย่างละเอียด เครื่องมือที่ใช้ Next.js tailwind PrismaORM Postgrest Postman โดยมีการทำ CICD Swagger และได้ใช้ Docker ในProjectด้วย ",
       year: "2024",
       link: 'https://numerrical.vercel.app/',
       tags: ["Next.js", "Tailwind", "Prisma", "Docker", "Swagger", "PostgreSQL"]
     },
     {
       title: "Kab shop",
-      desc: "เป็น Project วิชา 	SYSTEM ANALYSIS & DESIGN เป็นวิชาสำหรับฝึกการวิเคราะห์ Requirement รวมถึงการสร้าง Diagram ต่างๆ ซึ่งได้หัวข้อ Project คือ เว็บไซต์ ขายอุปกรณ์เครื่องเขียน ซึ่งในระบบมีตั้งแต่ การ เพิ่ม ลบ แก้ไข ค้นหา ตะกร้า บัญชีผู้ใช้ เครื่องมือที่ใช้พัฒนาคือ Next.js taildwind PrismaORM Postgrest Postman ",
+      desc: "เป็น Project วิชา 	SYSTEM ANALYSIS & DESIGN เป็นวิชาสำหรับฝึกการวิเคราะห์ Requirement รวมถึงการสร้าง Diagram ต่างๆ ซึ่งได้หัวข้อ Project คือ เว็บไซต์ ขายอุปกรณ์เครื่องเขียน ซึ่งในระบบมีตั้งแต่ การ เพิ่ม ลบ แก้ไข ค้นหา ตะกร้า บัญชีผู้ใช้ เครื่องมือที่ใช้พัฒนาคือ Next.js tailwind PrismaORM Postgrest Postman ",
       year: "2024",
       link: 'https://github.com/Pisit-auu/kabshop',
       tags: ["Next.js", "Tailwind", "Prisma", "PostgreSQL"]
     },
     {
       title: "StuffNext",
-      desc: "เป็น Project วิชา 	SYSTEM ANALYSIS & DESIGN โดยทำงานจริงตั้งแต่ รับ Requirement ของผู้ใช้ ไปจนถึงการทดสอบระบบ และ Deploy เพื่อใช้งาน ซึ่งเว็บไซต์นี้ ใช้ในการ จัดการครุภัณฑ์ของโรงเรียนศรีนครินทร์วิทยานุเคราะห์ โดยจัดเก็บตำแหน่งที่อยู่ จำนวน ชื่อผู้รับผิดชอบ ของครุภัณฑ์แต่ละอัน ซึ่งในระบบ สามารถ ค้นหา เพิ่ม ลบ แก้ไข ย้ายตำแหน่ง ได้ ดูสรุปได้ เครื่องมือที่ใช้พัฒนาคือ Next.js taildwind PrismaORM Postgrest Postman และ Docker สำหรับ deploy อ่านรายละเอียดเพิ่มเติมได้ที่ README https://github.com/Pisit-auu/stuffnext  ลองใช้ website User:admin Password:1234 ",
+      desc: "เป็น Project วิชา 	SYSTEM ANALYSIS & DESIGN โดยทำงานจริงตั้งแต่ รับ Requirement ของผู้ใช้ ไปจนถึงการทดสอบระบบ และ Deploy เพื่อใช้งาน ซึ่งเว็บไซต์นี้ ใช้ในการ จัดการครุภัณฑ์ของโรงเรียนศรีนครินทร์วิทยานุเคราะห์ โดยจัดเก็บตำแหน่งที่อยู่ จำนวน ชื่อผู้รับผิดชอบ ของครุภัณฑ์แต่ละอัน ซึ่งในระบบ สามารถ ค้นหา เพิ่ม ลบ แก้ไข ย้ายตำแหน่ง ได้ ดูสรุปได้ เครื่องมือที่ใช้พัฒนาคือ Next.js tailwind PrismaORM Postgrest Postman และ Docker สำหรับ deploy อ่านรายละเอียดเพิ่มเติมได้ที่ README https://github.com/Pisit-auu/stuffnext  ลองใช้ website User:admin Password:1234 ",
       year: "2025",
       link: 'https://stuffnext.vercel.app/',
       tags: ["Next.js", "Tailwind", "Docker", "Prisma", "PostgreSQL"]
