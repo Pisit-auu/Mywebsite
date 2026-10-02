@@ -25,19 +25,20 @@
 | **About Me** | `#about` | ตำแหน่ง ประวัติย่อ รูปโปรไฟล์ และปุ่มไป GitHub |
 | **Technologies** | — | ทักษะแบ่ง 5 กลุ่ม: Programming Languages, Web Development, AI & Machine Learning, Tools & DevOps, IoT & Embedded |
 | **My Project** | `#work` | การ์ดโปรเจกต์ บอกปี คำอธิบาย ลิงก์ และแท็กเทคโนโลยี |
-| **Contact** | `#contact` | ส่วนท้ายเว็บ ลิงก์ GitHub และอีเมล |
+| **Contact** | `#contact` | ส่วนท้ายเว็บ ลิงก์ GitHub และอีเมล (กดแล้วเปิดโปรแกรมอีเมล) |
 
 ### โปรเจกต์ที่แสดง
 
 | โปรเจกต์ | ปี | รายวิชา | ลิงก์ |
 |----------|----|---------|-------|
 | Numerical Website | 2024 | Numerical Method | [numerrical.vercel.app](https://numerrical.vercel.app/) |
-| Kab shop | 2024 | System Analysis & Design | [GitHub](https://github.com/Pisit-auu/kabshop) |
+| Kab shop | 2024 | System Analysis & Design | [kabshop.vercel.app](https://kabshop.vercel.app/) |
 | StuffNext | 2025 | System Analysis & Design | [stuffnext.vercel.app](https://stuffnext.vercel.app/) |
-| Giraffe Escape | 2024 | Object Oriented Programming | [GitHub](https://github.com/Pisit-auu/GiraffeEscape) |
+| Giraffe Escape | 2024 | Object Oriented Programming | [giraftgame.vercel.app](https://giraftgame.vercel.app/) (เวอร์ชันเว็บ) |
 | SearchEngine | 2025 | Machine Learning | [searchengineml.streamlit.app](https://searchengineml.streamlit.app/) |
 | Intelligent System Project | 2025 | Intelligent System | [projectintelligentsystem.streamlit.app](https://projectintelligentsystem.streamlit.app/) |
-| EA by AI | 2025 | Artificial Intelligence Software Development | กำลังพัฒนา |
+| EA by AI | 2025 | Artificial Intelligence Software Development | [eawithai.vercel.app](https://eawithai.vercel.app/) |
+| TableLearn | 2026 | — (โปรเจกต์ส่วนตัว) | [tablelearn.vercel.app](https://tablelearn.vercel.app/) |
 
 ---
 
