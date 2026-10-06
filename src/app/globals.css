@@ -24,3 +24,80 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Sticky nav is h-16; keep anchored sections clear of it */
+html {
+  scroll-padding-top: 6rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+::selection {
+  background: #0f172a;
+  color: #fff;
+}
+
+@keyframes caret {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Reading progress bar under the nav. Hidden where scroll-driven animation isn't supported. */
+.scroll-progress {
+  display: none;
+}
+
+/* Project previews unclip into view as they scroll in. Without support they simply show. */
+@supports (animation-timeline: scroll()) {
+  .scroll-progress {
+    display: block;
+    transform: scaleX(0);
+    animation: scroll-progress linear both;
+    animation-timeline: scroll(root block);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal-clip {
+      animation: reveal-clip linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 70%;
+    }
+  }
+}
+
+@keyframes scroll-progress {
+  to { transform: scaleX(1); }
+}
+
+@keyframes reveal-clip {
+  from {
+    clip-path: inset(14% 8% 14% 8% round 16px);
+    opacity: 0.25;
+  }
+  to {
+    clip-path: inset(0 0 0 0 round 8px);
+    opacity: 1;
+  }
+}
+
+/* Command palette entrance */
+@media (prefers-reduced-motion: no-preference) {
+  dialog.palette[open] {
+    animation: palette-in 220ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  dialog.palette[open]::backdrop {
+    animation: backdrop-in 220ms ease-out;
+  }
+}
+
+@keyframes palette-in {
+  from { opacity: 0; transform: translateY(-8px) scale(0.98); }
+}
+
+@keyframes backdrop-in {
+  from { opacity: 0; }
+}
