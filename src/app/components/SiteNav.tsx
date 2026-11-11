@@ -9,7 +9,7 @@ const SECTIONS = [
   { id: "contact", label: "Contact" },
 ];
 
-type Socials = { github: string };
+type Socials = { github: string; fastwork: string };
 
 function scrollBehavior(): ScrollBehavior {
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
@@ -164,6 +164,7 @@ function CommandPalette({ open, onClose, socials, projects }: { open: boolean; o
       },
     })),
     { id: "github", group: "Contact", label: "Open GitHub", hint: hostname(socials.github), run: () => void window.open(socials.github, "_blank", "noopener,noreferrer") },
+    { id: "fastwork", group: "Contact", label: "Hire me on Fastwork", hint: "fastwork.com/user/createanything", run: () => void window.open(socials.fastwork, "_blank", "noopener,noreferrer") },
   ];
 
   const q = query.trim().toLowerCase();

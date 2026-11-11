@@ -8,7 +8,7 @@ const portfolioData: {
   name: string;
   role: string;
   bio: string;
-  socials: { github: string };
+  socials: { github: string; fastwork: string };
   skills: SkillGroup[];
   projects: Project[];
 } = {
@@ -17,6 +17,7 @@ const portfolioData: {
   bio: "I am a third year Computer Science student experienced in AI and web application projects, with growing interests in IoT and DevOps to broaden my technical skill set.",
   socials: {
     github: "https://github.com/Pisit-auu",
+    fastwork: "https://fastwork.com/user/createanything",
   },
   skills: [
     {
@@ -139,6 +140,14 @@ export default function MinimalPortfolio() {
                         className="hover:text-white transition" 
                       >
                         GitHub
+                      </a>
+                      <a 
+                        href={portfolioData.socials.fastwork} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="hover:text-white transition" 
+                      >
+                        จ้างงานผ่าน Fastwork
                       </a>
                     </div>
 
