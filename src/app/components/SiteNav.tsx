@@ -9,7 +9,7 @@ const SECTIONS = [
   { id: "contact", label: "Contact" },
 ];
 
-type Socials = { github: string; email: string };
+type Socials = { github: string };
 
 function scrollBehavior(): ScrollBehavior {
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
@@ -133,7 +133,6 @@ function CommandPalette({ open, onClose, socials, projects }: { open: boolean; o
   const inputRef = useRef<HTMLInputElement>(null);
   const [query, setQuery] = useState("");
   const [index, setIndex] = useState(0);
-  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     const dialog = dialogRef.current;
@@ -141,7 +140,6 @@ function CommandPalette({ open, onClose, socials, projects }: { open: boolean; o
     if (open && !dialog.open) {
       setQuery("");
       setIndex(0);
-      setCopied(false);
       dialog.showModal();
       inputRef.current?.focus();
     } else if (!open && dialog.open) {
@@ -166,17 +164,6 @@ function CommandPalette({ open, onClose, socials, projects }: { open: boolean; o
       },
     })),
     { id: "github", group: "Contact", label: "Open GitHub", hint: hostname(socials.github), run: () => void window.open(socials.github, "_blank", "noopener,noreferrer") },
-    {
-      id: "copy-email",
-      group: "Contact",
-      label: copied ? "Email copied" : "Copy email address",
-      hint: socials.email,
-      run: () => {
-        navigator.clipboard?.writeText(socials.email).then(() => setCopied(true));
-        return "keep-open";
-      },
-    },
-    { id: "mail", group: "Contact", label: "Send an email", hint: socials.email, run: () => void (window.location.href = `mailto:${socials.email}`) },
   ];
 
   const q = query.trim().toLowerCase();

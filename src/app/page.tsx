@@ -1,6 +1,5 @@
 import HeroTitle from "./components/HeroTitle";
 import SiteNav from "./components/SiteNav";
-import TiltPhoto from "./components/TiltPhoto";
 import WorkExplorer from "./components/WorkExplorer";
 import type { Project, SkillGroup } from "./components/types";
 
@@ -9,7 +8,7 @@ const portfolioData: {
   name: string;
   role: string;
   bio: string;
-  socials: { github: string; email: string };
+  socials: { github: string };
   skills: SkillGroup[];
   projects: Project[];
 } = {
@@ -18,7 +17,6 @@ const portfolioData: {
   bio: "I am a third year Computer Science student experienced in AI and web application projects, with growing interests in IoT and DevOps to broaden my technical skill set.",
   socials: {
     github: "https://github.com/Pisit-auu",
-    email: "s6604062610471@email.kmutnb.ac.th", 
   },
   skills: [
     {
@@ -119,8 +117,6 @@ export default function MinimalPortfolio() {
               </div>
             </div>
 
-            <TiltPhoto src="/image.jpg" alt="Profile Picture" />
-
           </div>
         </section>
 
@@ -143,12 +139,6 @@ export default function MinimalPortfolio() {
                         className="hover:text-white transition" 
                       >
                         GitHub
-                      </a>
-                      <a 
-                        href={`mailto:${portfolioData.socials.email}`} 
-                        className="hover:text-white transition" 
-                      >
-                        Email : {portfolioData.socials.email}
                       </a>
                     </div>
 
