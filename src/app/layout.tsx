@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pisit Sangiemwong",
+  title: "PS AU — Portfolio",
   description: "My website",
 };
 

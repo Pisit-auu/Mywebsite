@@ -13,7 +13,7 @@ const portfolioData: {
   skills: SkillGroup[];
   projects: Project[];
 } = {
-  name: "Pisit Sangiemwong",
+  name: "PS AU",
   role: "Software Developer",
   bio: "I am a third year Computer Science student experienced in AI and web application projects, with growing interests in IoT and DevOps to broaden my technical skill set.",
   socials: {
@@ -60,14 +60,6 @@ const portfolioData: {
       tags: ["Next.js", "Tailwind", "Prisma", "PostgreSQL"]
     },
     {
-      title: "StuffNext",
-      desc: "เป็น Project วิชา 	SYSTEM ANALYSIS & DESIGN โดยทำงานจริงตั้งแต่ รับ Requirement ของผู้ใช้ ไปจนถึงการทดสอบระบบ และ Deploy เพื่อใช้งาน ซึ่งเว็บไซต์นี้ ใช้ในการ จัดการครุภัณฑ์ของโรงเรียนศรีนครินทร์วิทยานุเคราะห์ โดยจัดเก็บตำแหน่งที่อยู่ จำนวน ชื่อผู้รับผิดชอบ ของครุภัณฑ์แต่ละอัน ซึ่งในระบบ สามารถ ค้นหา เพิ่ม ลบ แก้ไข ย้ายตำแหน่ง ได้ ดูสรุปได้ เครื่องมือที่ใช้พัฒนาคือ Next.js tailwind PrismaORM Postgrest Postman และ Docker สำหรับ deploy อ่านรายละเอียดเพิ่มเติมได้ที่ README https://github.com/Pisit-auu/stuffnext",
-      year: "2025",
-      link: 'https://stuffnext.vercel.app/',
-      image: "/projects/stuffnext.png",
-      tags: ["Next.js", "Tailwind", "Docker", "Prisma", "PostgreSQL"]
-    },
-    {
       title: "Giraft Escape",
       desc: "เป็น Project วิชา Object Oriented Programming โดยสร้างเกมแนว Tower Defense ที่สร้างโดยใช้หลักการ OOP และ ภาษา Java ต่อมาได้พอร์ตเป็นเวอร์ชันเว็บด้วย TypeScript ให้เล่นบนเบราว์เซอร์ได้ทั้งคอมพิวเตอร์และมือถือ",
       year: "2024",
@@ -90,14 +82,6 @@ const portfolioData: {
       link: 'https://projectintelligentsystem.streamlit.app/',
       image: "/projects/intelligent.png",
       tags: ["Python", "SVM", "KNN", "MobileNetV2"]
-    },
-    {
-      title: "EA by Ai ",
-      desc: "เป็น Project วิชา Artificial Intelligence Software Development ทำ Projectเกี่ยวกับ ให้ EA เทรด ให้กับเรา อัตโนมัติ ใน MetaTrader5 โดยใช้ 1DCNN+LSTM ในการทำนาย Wait,Trade และใช้ LLM ในการทำนาย BUY,SELL โดยการ finetune LLM ด้วย LoRA",
-      year: "2025",
-      link: 'https://eawithai.vercel.app/',
-      image: "/projects/eawithai.png",
-      tags: ["Python","1DCNN","LSTM","Supervised Fine Tuning (SFT)","LLM Parameter efficient fine tuning using LoRA","llama"]
     },
     {
       title: "TableLearn",
